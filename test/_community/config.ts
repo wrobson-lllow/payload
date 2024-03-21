@@ -1,5 +1,6 @@
 import { buildConfigWithDefaults } from '../buildConfigWithDefaults'
 import { devUser } from '../credentials'
+import { AutoCompleteExampleCollection } from './collections/AutoCompleteExample'
 import { MediaCollection } from './collections/Media'
 import { PostsCollection, postsSlug } from './collections/Posts'
 import { MenuGlobal } from './globals/Menu'
@@ -10,6 +11,7 @@ export default buildConfigWithDefaults({
     PostsCollection,
     MediaCollection,
     // ...add more collections here
+    AutoCompleteExampleCollection,
   ],
   globals: [
     MenuGlobal,
