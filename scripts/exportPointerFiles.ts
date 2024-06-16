@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-
+// this is an example comment no changes have been made to the code
 const [baseDirRelativePath] = process.argv.slice(2)
 const [sourceDirRelativePath] = process.argv.slice(3)
 
