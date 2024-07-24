@@ -30,6 +30,10 @@ export const PostsCollection: CollectionConfig = {
       type: 'text',
     },
     {
+      name: 'deleteCheckbox',
+      type: 'checkbox',
+    },
+    {
       name: 'associatedMedia',
       access: {
         create: () => true,
