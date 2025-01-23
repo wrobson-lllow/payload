@@ -4,6 +4,7 @@ import { MediaCollection } from './collections/Media'
 import { PostsCollection, postsSlug } from './collections/Posts'
 import { UsersCollection } from './collections/Users'
 import { MenuGlobal } from './globals/Menu'
+import { ExampleCollection } from './collections/Example'
 
 export default buildConfigWithDefaults({
   // ...extend config here
@@ -12,6 +13,7 @@ export default buildConfigWithDefaults({
     PostsCollection,
     MediaCollection,
     // ...add more collections here
+    ExampleCollection,
   ],
   globals: [
     MenuGlobal,
